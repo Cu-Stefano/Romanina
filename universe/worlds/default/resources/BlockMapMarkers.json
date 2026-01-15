@@ -8,7 +8,7 @@
       },
       "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
       "Icon": "Temple_Gateway.png",
-      "MarkerId": "113ec1c2-9ddb-403d-92bc-67bd9880cf68"
+      "MarkerId": "57bd4dc8-7f30-4305-93fe-db35bd319422"
     },
     "1891511783634500546": {
       "Position": {
@@ -28,7 +28,7 @@
       },
       "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
       "Icon": "Temple_Gateway.png",
-      "MarkerId": "d6c5e043-6be9-43fd-8638-dd591b9054a0"
+      "MarkerId": "549ad43f-3a63-4e4d-9d37-6cc5f2b0903e"
     }
   }
 }

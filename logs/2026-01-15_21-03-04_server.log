@@ -1,0 +1,219 @@
+[2026/01/15 20:03:05   INFO]           [HytaleServer] Starting HytaleServer
+[2026/01/15 20:03:05   INFO]           [HytaleServer] Loading config...
+[2026/01/15 20:03:05 SEVERE]                   [SERR] decodeJson: class com.hypixel.hytale.codec.DocumentContainingCodec
+[2026/01/15 20:03:05   INFO]           [HytaleServer] Authentication mode: AUTHENTICATED
+[2026/01/15 20:03:06   INFO]      [ServerAuthManager] Singleplayer mode, owner: Cu_ste (dc0612a6-438f-4a84-9157-5e32591d4634)
+[2026/01/15 20:03:06   INFO]      [ServerAuthManager] Session token loaded from CLI
+[2026/01/15 20:03:06   INFO]      [ServerAuthManager] Identity token loaded from CLI
+[2026/01/15 20:03:06   INFO]   [SessionServiceClient] Session Service client initialized for: https://sessions.hytale.com
+[2026/01/15 20:03:07   INFO]   [SessionServiceClient] Successfully fetched JWKS with 1 keys
+[2026/01/15 20:03:07   INFO]           [JWTValidator] JWKS loaded with 1 keys
+[2026/01/15 20:03:07   INFO]           [JWTValidator] Identity token validated successfully for user null (UUID: dc0612a6-438f-4a84-9157-5e32591d4634)
+[2026/01/15 20:03:07   INFO]      [ServerAuthManager] Identity token validated for null (dc0612a6-438f-4a84-9157-5e32591d4634)
+[2026/01/15 20:03:07   INFO]           [JWTValidator] Session token validated successfully
+[2026/01/15 20:03:07   INFO]      [ServerAuthManager] Session token validated
+[2026/01/15 20:03:07   INFO]      [ServerAuthManager] Auth mode: SINGLEPLAYER
+[2026/01/15 20:03:07   INFO]      [ServerAuthManager] Token refresh scheduled in 3294 seconds
+[2026/01/15 20:03:07   INFO]      [ServerAuthManager] Server session ID: b09b7749-8031-4960-9c72-28644fd7694d
+[2026/01/15 20:03:07   INFO]           [HytaleServer] Enabling Sentry
+[2026/01/15 20:03:08   INFO]           [HytaleServer] Booting up HytaleServer - Version: 2026.01.15-c04fdfe10, Revision: c04fdfe1050a70829ff6aaf01da2d7d679220f86
+[2026/01/15 20:03:08   INFO]           [HytaleServer] Setup phase...
+[2026/01/15 20:03:09   INFO]          [PluginManager] Loading pending core plugins!
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:ConsoleModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:PermissionsModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:FlyCameraModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:AssetModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:CommonAssetModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:CosmeticsModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:ServerManager
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:I18nModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:ItemModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:BlockTypeModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:LegacyModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:BlockModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:BlockStateModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:CollisionModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:BlockSetModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:MigrationModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:BlockHealthModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:PrefabSpawnerModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:TimeModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:InteractionModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:EntityModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:EntityStatsModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:EntityUIModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:DamageModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:SplitVelocity
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:StaminaModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:DebugPlugin
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:ProjectileModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:ServerPlayerListModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:AccessControlModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:SingleplayerModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Universe
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:ConnectedBlocksModule
+[2026/01/15 20:03:09   INFO]          [PluginManager] Loading pending classpath plugins!
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:AssetEditor
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:BlockSpawner
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:BlockTick
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:BlockPhysics
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:BuilderTools
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Crafting
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:CommandMacro
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Instances
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:LANDiscovery
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:NPC
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:NPCObjectives
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:ObjectiveReputation
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Objectives
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:ObjectiveShop
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Path
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Reputation
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:NPCReputation
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Shop
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:ShopReputation
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:NPCShop
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:NPCEditor
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Stash
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:TagSet
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Teleport
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Fluid
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Weather
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:WorldGen
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Farming
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Camera
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:WorldLocationCondition
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:NPCCombatActionEvaluator
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Model
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Mantling
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:SafetyRoll
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:SprintForce
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:CrouchSlide
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Parkour
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Mounts
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:HytaleGenerator
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Teleporter
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Memories
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Deployables
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Portals
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Beds
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:Ambience
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Hytale:CreativeHub
+[2026/01/15 20:03:09   INFO]          [PluginManager] Loading pending plugins from directory: mods
+[2026/01/15 20:03:09   INFO]          [PluginManager] Loading pending plugins from directory: C:\Users\stefa\AppData\Roaming\Hytale\UserData\Mods
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Serilum:ChatHistory from path chathistory-2026.01.07-1.0.jar
+[2026/01/15 20:03:09   WARN]          [PluginManager] Skipping mod Serilum:ChatHistory (Disabled by server config)
+[2026/01/15 20:03:09   INFO]          [PluginManager] - JarHax:EyeSpy from path EyeSpy-2026.1.13-65469.jar
+[2026/01/15 20:03:09   WARN]          [PluginManager] Skipping mod JarHax:EyeSpy (Disabled by server config)
+[2026/01/15 20:03:09   INFO]          [PluginManager] - Serilum:Hybrid from path hybrid-2026.01.13-1.4.jar
+[2026/01/15 20:03:09   WARN]          [PluginManager] Skipping mod Serilum:Hybrid (Disabled by server config)
+[2026/01/15 20:03:09   INFO]             [Universe|P] Scheduled backup to run every 30 minute(s)
+-=|Setup|1.0
+-=|Setup|2.0
+-=|Setup|4.0
+-=|Setup|5.0
+[2026/01/15 20:03:09   INFO]          [AssetModule|P] Asset monitor enabled!
+[2026/01/15 20:03:09   INFO]          [AssetModule|P] Loaded pack: Hytale:Hytale from Assets.zip
+[2026/01/15 20:03:09   INFO]          [AssetModule|P] Loading packs from directory: mods
+[2026/01/15 20:03:09   WARN]          [AssetModule|P] Skipping pack at Hytale_Shop: missing or invalid manifest.json
+[2026/01/15 20:03:09   INFO]          [AssetModule|P] Loading packs from directory: C:\Users\stefa\AppData\Roaming\Hytale\UserData\Mods
+[2026/01/15 20:03:09   INFO]          [AssetModule|P] Skipped disabled pack: BlackAures:Aures - Horse Skins
+[2026/01/15 20:03:09   INFO]          [AssetModule|P] Skipped disabled pack: BlackAures:Aures - Livestock Skins
+-=|Setup|6.0
+[2026/01/15 20:03:09   INFO]      [ServerAuthManager] Server certificate set: CN=localhost
+[2026/01/15 20:03:09   INFO]          [QUICTransport] Server certificate registered for mutual auth, fingerprint: gs_4g6xbmTxccxSY_R8uIpn125npYy_9wAdZ2soTo44
+[2026/01/15 20:03:09   INFO]          [QUICTransport] Using IPv4 Datagram Channel: NioDatagramChannel(INET)...
+[2026/01/15 20:03:09   INFO]          [QUICTransport] Using IPv6 Datagram Channel: NioDatagramChannel(INET6)...
+[2026/01/15 20:03:09   INFO]        [ServerManager|P] Took 906ms 813us 500ns to setup transport!
+[2026/01/15 20:03:09   INFO]        [ConsoleModule|P] Setup console with type: dumb
+-=|Setup|7.000000000000001
+[2026/01/15 20:03:09   INFO]         [CommandManager] Console executed command: stop
+-=|Setup|9.0
+-=|Setup|10.0
+-=|Setup|11.0
+-=|Setup|12.0
+server.commands.stop.success
+[2026/01/15 20:03:10   INFO]           [HytaleServer] Shutdown triggered!!!
+[2026/01/15 20:03:10   INFO]           [HytaleServer] Shutting down... 0  'null'
+[2026/01/15 20:03:10   INFO]          [PluginManager] Saving plugins config...
+-=|Shutdown Modules|86.0
+[2026/01/15 20:03:10   INFO]   [SessionServiceClient] Terminating game session...
+-=|Shutdown Modules|-9.223372036854776E18
+[2026/01/15 20:03:10 SEVERE]             [Universe|P] Failed to setup plugin Hytale:Universe
+java.lang.IllegalArgumentException: EventRegistry is shutdown!
+	at com.hypixel.hytale.event.SyncEventBusRegistry.register(SyncEventBusRegistry.java:40)
+	at com.hypixel.hytale.event.EventBus.register(EventBus.java:173)
+	at com.hypixel.hytale.event.EventBus.register(EventBus.java:158)
+	at com.hypixel.hytale.event.EventRegistry.register(EventRegistry.java:81)
+	at com.hypixel.hytale.server.core.universe.Universe.setup(Universe.java:266)
+	at com.hypixel.hytale.server.core.plugin.PluginBase.setup0(PluginBase.java:389)
+	at com.hypixel.hytale.server.core.plugin.PluginManager.setup(PluginManager.java:757)
+	at com.hypixel.hytale.server.core.plugin.PluginManager.setup(PluginManager.java:236)
+	at com.hypixel.hytale.server.core.HytaleServer.boot(HytaleServer.java:345)
+	at com.hypixel.hytale.server.core.HytaleServer.<init>(HytaleServer.java:303)
+	at com.hypixel.hytale.LateMain.lateMain(LateMain.java:54)
+	at com.hypixel.hytale.Main.main(Main.java:43)
+
+-=|Shutdown Modules|-9.223372036854776E18
+[2026/01/15 20:03:10 SEVERE]               [TagSet|P] Failed to setup plugin Hytale:TagSet
+java.lang.IllegalArgumentException: EventRegistry is shutdown!
+	at com.hypixel.hytale.event.SyncEventBusRegistry.dispatchFor(SyncEventBusRegistry.java:88)
+	at com.hypixel.hytale.event.EventBus.dispatchFor(EventBus.java:272)
+	at com.hypixel.hytale.event.IEventBus.dispatchFor(IEventBus.java:44)
+	at com.hypixel.hytale.assetstore.AssetRegistry.register(AssetRegistry.java:61)
+	at com.hypixel.hytale.builtin.tagset.TagSetPlugin.setup(TagSetPlugin.java:39)
+	at com.hypixel.hytale.server.core.plugin.PluginBase.setup0(PluginBase.java:389)
+	at com.hypixel.hytale.server.core.plugin.PluginManager.setup(PluginManager.java:757)
+	at com.hypixel.hytale.server.core.plugin.PluginManager.setup(PluginManager.java:236)
+	at com.hypixel.hytale.server.core.HytaleServer.boot(HytaleServer.java:345)
+	at com.hypixel.hytale.server.core.HytaleServer.<init>(HytaleServer.java:303)
+	at com.hypixel.hytale.LateMain.lateMain(LateMain.java:54)
+	at com.hypixel.hytale.Main.main(Main.java:43)
+
+-=|Shutdown Modules|-9.223372036854776E18
+-=|Shutdown Modules|-9.223372036854776E18
+[2026/01/15 20:03:10 SEVERE]         [CommandMacro|P] Failed to setup plugin Hytale:CommandMacro
+java.lang.IllegalArgumentException: EventRegistry is shutdown!
+	at com.hypixel.hytale.event.SyncEventBusRegistry.dispatchFor(SyncEventBusRegistry.java:88)
+	at com.hypixel.hytale.event.EventBus.dispatchFor(EventBus.java:272)
+	at com.hypixel.hytale.event.IEventBus.dispatchFor(IEventBus.java:44)
+	at com.hypixel.hytale.assetstore.AssetRegistry.register(AssetRegistry.java:61)
+	at com.hypixel.hytale.builtin.commandmacro.MacroCommandPlugin.setup(MacroCommandPlugin.java:37)
+	at com.hypixel.hytale.server.core.plugin.PluginBase.setup0(PluginBase.java:389)
+	at com.hypixel.hytale.server.core.plugin.PluginManager.setup(PluginManager.java:757)
+	at com.hypixel.hytale.server.core.plugin.PluginManager.setup(PluginManager.java:236)
+	at com.hypixel.hytale.server.core.HytaleServer.boot(HytaleServer.java:345)
+	at com.hypixel.hytale.server.core.HytaleServer.<init>(HytaleServer.java:303)
+	at com.hypixel.hytale.LateMain.lateMain(LateMain.java:54)
+	at com.hypixel.hytale.Main.main(Main.java:43)
+
+-=|Shutdown Modules|-9.223372036854776E18
+-=|Shutdown Modules|-9.223372036854776E18
+[2026/01/15 20:03:10 SEVERE]      [HytaleGenerator|P] Failed to setup plugin Hytale:HytaleGenerator
+java.lang.ExceptionInInitializerError
+	at com.hypixel.hytale.builtin.hytalegenerator.plugin.HytaleGenerator.setup(HytaleGenerator.java:94)
+	at com.hypixel.hytale.server.core.plugin.PluginBase.setup0(PluginBase.java:389)
+	at com.hypixel.hytale.server.core.plugin.PluginManager.setup(PluginManager.java:757)
+	at com.hypixel.hytale.server.core.plugin.PluginManager.setup(PluginManager.java:236)
+	at com.hypixel.hytale.server.core.HytaleServer.boot(HytaleServer.java:345)
+	at com.hypixel.hytale.server.core.HytaleServer.<init>(HytaleServer.java:303)
+	at com.hypixel.hytale.LateMain.lateMain(LateMain.java:54)
+	at com.hypixel.hytale.Main.main(Main.java:43)
+Caused by: java.lang.IllegalArgumentException: EventRegistry is shutdown!
+	at com.hypixel.hytale.event.SyncEventBusRegistry.dispatchFor(SyncEventBusRegistry.java:88)
+	at com.hypixel.hytale.event.EventBus.dispatchFor(EventBus.java:272)
+	at com.hypixel.hytale.event.IEventBus.dispatchFor(IEventBus.java:44)
+	at com.hypixel.hytale.assetstore.AssetRegistry.register(AssetRegistry.java:61)
+	at com.hypixel.hytale.builtin.hytalegenerator.assets.AssetManager.<clinit>(AssetManager.java:60)
+	... 8 more
+
+-=|Shutdown Modules|-9.223372036854776E18
+-=|Shutdown Modules|-9.223372036854776E18
+[2026/01/15 20:03:10 SEVERE]          [PluginManager] Hytale:CommonAssetModule is lacking dependency AssetModule at stage SETUP
+[2026/01/15 20:03:10 SEVERE]          [PluginManager] Hytale:CommonAssetModule DISABLED!
+-=|Shutdown Modules|-9.223372036854776E18
+[2026/01/15 20:03:10 SEVERE]          [PluginManager] Hytale:I18nModule is lacking dependency AssetModule at stage SETUP
+[2026/01/15 20:03:10 SEVERE]          [PluginManager] Hytale:I18nModule DISABLED!
+[2026/01/15 20:03:10   INFO]   [SessionServiceClient] Game session terminated
+[2026/01/15 20:03:10   INFO]           [HytaleServer] Saving config...
+[2026/01/15 20:03:10   INFO]           [HytaleServer] Shutdown completed!
